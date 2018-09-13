@@ -9,3 +9,38 @@
 		max-height: 100vh;
 	}
 }
+
+@media (max-height: 800px) and (orientation : landscape) {
+.main--header {
+	flex:inherit;
+}
+
+}
+@media (max-height: 768px) and (orientation : landscape) {
+
+.item-gym {
+	position: relative;
+}
+.item-gym--info {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.7);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+}
+
+@media (max-height: 640px) and (orientation : landscape) {
+
+.navbar-brand>img {
+	max-height: 60px;
+}
+}
+@media (max-height: 576px) and (orientation : landscape) {
+#main{max-height: inherit;}
+.item-gym--photo {
+    height: 268px;
+}
+}

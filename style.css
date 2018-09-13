@@ -33,7 +33,8 @@ a:hover {
 
 
 .main--header {
-	/*height: 240px;*/
+	flex:1;
+	max-height: 240px;
 	align-items: center;
 }
 
@@ -137,9 +138,10 @@ a.text-red:hover {
 	max-height: 100%
 }
 .item-gym {
-	margin-bottom: 15px;
+	height: 100%;
+	/*margin-bottom: 15px;*/
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 .main--body {
 	flex-wrap: wrap;
@@ -165,4 +167,7 @@ a.text-red:hover {
 	/*flex: 1 0;*/
 	width: 100%;
 	display: flex;
+}
+.todo--item {
+	padding-bottom: 15px
 }
