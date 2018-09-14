@@ -60,6 +60,9 @@ a:hover {
 a.text-red:hover {
 	
 }
+
+
+
 .text-decoration-none {text-decoration: none;}
 
 .icon-circle {
@@ -67,6 +70,11 @@ a.text-red:hover {
 	height: 33px;
 	border-radius: 50%;
 	color: #000000;
+	display: block;
+}
+.icon-circle img {
+	max-height: 100%;
+	max-width: 100%;
 }
 .bg-red{
 	background-color: #f35840;
@@ -122,7 +130,8 @@ a.text-red:hover {
 .main--footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	color: #838588
+	color: #838588;
+	padding-left: 15px
 }
 
 .item-gym--photo{
@@ -151,11 +160,15 @@ a.text-red:hover {
 
 .item-gym--info {
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 20px;
+}
+.item-gym--info > div {
+	padding-bottom: 5px;
 }
 
 .item-gym--info--address{
 	min-width: 225px;
+	padding-bottom: 5px;
 }
 .item-gym--info--address .icon-circle{
 	margin-right: 10px;

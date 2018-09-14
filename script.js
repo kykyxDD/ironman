@@ -1,7 +1,7 @@
 Vue.component('todo-item', {
   props: ['todo'],
   template: [
-    '<div class="col-sm-6 col-12 todo--item" >',
+    '<div class="col-sm-6 col-xs-12 todo--item" >',
 	    '<div class="item-gym">',
 			'<div class="item-gym--photo bg-white" v-bind:style="{ backgroundImage: `url(${todo.img})` }">',
 				// '<img v-bind:src="todo.img">',
