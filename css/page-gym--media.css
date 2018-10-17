@@ -1,0 +1,181 @@
+@media (max-width: 992px)  {
+	#main-page {
+		font-size: 18px;
+	}
+	.navbar-brand>img {
+		max-width: 210px;
+	}
+	.main--header .header--image img {
+	    max-width: 180px;
+	}
+	.main--header .gym-address,
+	.table-info--item .text-red,
+	.price--btn .text-black,
+	.schedule--title {
+		font-size: 35px;
+	}
+	.main--header .gym-address {
+	    
+	    line-height: 40px;
+	}
+	.gym--info--btn .text {
+	    color: #fff;
+	    text-align: center;
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+	.table-info--item .text-red {
+		line-height: 33px;
+	}
+	.price--btn {
+		padding: 15px 30px;
+	}
+	.gym--info--btn .icon-circle {
+	    width: 40px;
+	    height: 40px;
+	}
+}
+
+@media (max-width: 900px){ 
+}
+
+
+@media (max-width: 767px){
+	.body--gym--info {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.body--gym--info > div {
+		width: 33%;
+		margin-bottom: 20px;
+		min-height: 90px;
+	}
+	.table-info--item {
+		width: 50%;
+	}
+	.table-info--item:nth-child(2) {
+		border-radius: 0 30px 0 0
+	}
+	.table-info--item:nth-child(3),
+	.table-info--item:nth-child(4) {
+		border-radius: 0;
+	}
+	.table-info--item:nth-child(5) {
+		border-radius: 0 0 0 30px
+	}
+	.main--header .gym-address /*, 
+	.table-info--item .text-red, 
+	.price--btn .text-black, 
+	.schedule--title*/ {
+	    font-size: 28px;
+	    line-height: 30px
+	}
+	.main--header .navbar-brand {
+		padding-right: 0;
+	}
+	.navbar-collapse {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.navbar-brand>img {
+	    max-width: 190px;
+	}
+	.main--header .header--image img {
+	    max-width: 160px;
+	}
+	.price--btn, .gym--info--btn {
+		border-radius: 20px;
+	}
+	.gym--info--btn .icon-circle {
+	    width: 35px;
+	    height: 35px;
+	}
+	.gym--info--btn .text {
+		font-size: 16px;
+		line-height: 18px;
+	}
+}
+
+
+@media (max-width: 650px){
+	.main--header .gym-address /*, 
+	.table-info--item .text-red, 
+	.price--btn .text-black, 
+	.schedule--title*/ {
+	    font-size: 25px;
+	    line-height: 25px
+	}
+	.navbar-brand>img {
+	    max-width: 150px;
+	}
+	.main--header .header--image img {
+	    max-width: 130px;
+	}
+	.price--btn, .gym--info--btn {
+		margin: 0 5px;
+	}
+	.body--gym--info > div {
+		margin-bottom: 10px
+	}
+	.gym--info--btn .text {
+	    font-size: 15px;
+	    line-height: 15px;
+	}
+}
+
+
+@media (max-width: 576px){
+	#main-page,
+	.gym--info--btn .text {
+		font-size: 15px;
+	}
+	.body--gym--info > div {
+		width: 50%;
+	}
+	.gym--info--btn .icon-circle {
+		width: 32px;
+		height: 32px;
+	}
+	.main--header .gym-address,
+	.table-info--item .text-red,
+	.price--btn .text-black,
+	.schedule--title {
+		font-size: 21px;
+	}
+	.table-info--item .text-red {
+		line-height: 21px;
+	}
+	.table-info--item .text-white {
+		line-height: 16px;
+	}
+	.main--header .header--image img {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 450px){
+.table-info--item {
+		width: 100%;
+	}
+	.table-info--item:nth-child(5) ,
+	.table-info--item:nth-child(2) {
+		border-radius: 0
+	}
+	
+	.table-info--item:nth-child(1) {
+		border-radius: 30px 30px 0 0 ;
+	}
+	.table-info--item:first-child {
+		border-radius: 30px 30px 0 0 ;
+	}
+	.table-info--item:last-child {
+		border-radius: 0 0 30px 30px;
+	}
+	.main--header .navbar {
+		flex-direction: column;
+	}
+	.main--header .navbar-brand {
+		padding-left: 0;
+	}
+}

@@ -1,11 +1,11 @@
 @font-face {
     font-family: DinDisplay;
-    src: url(./fonts/PF_DinDisplay_Pro.ttf);
+    src: url(./../fonts/PF_DinDisplay_Pro.ttf);
 }
 body {
 	background-color: #000004 !important;
 	color: #838588;
-font-family: DinDisplay, Geneva, Arial, Helvetica, sans-serif;
+	font-family: DinDisplay, Geneva, Arial, Helvetica, sans-serif;
 
 }
 
@@ -57,6 +57,9 @@ a:hover {
 .text-red {
 	color: #f35840;
 }
+.text-white {
+	color: #fff;
+}
 a.text-red:hover {
 	
 }
@@ -86,9 +89,6 @@ a.text-red:hover {
 
 .text-black {
 	color: #000000;
-}
-.header--phone {
-	padding: 
 }
 
 .header--phone .icon-circle {
@@ -161,17 +161,48 @@ a.text-red:hover {
 .item-gym--info {
 	padding-top: 25px;
 	padding-bottom: 20px;
+	justify-content: space-between;
 }
 .item-gym--info > div {
-	padding-bottom: 5px;
+	/*padding-bottom: 5px;*/
 }
-
+.item-gym--info--soc{
+	white-space: nowrap;
+}
 .item-gym--info--address{
-	min-width: 225px;
-	padding-bottom: 5px;
+	/*min-width: 225px;*/
+	position: relative;
+	background: #e63c24;
+	background: -moz-linear-gradient(top, #e63c24 0%, #8c241f 100%);
+	background: -webkit-linear-gradient(top, #e63c24 0%,#8c241f 100%);
+	background: linear-gradient(to bottom, #e63c24 0%,#8c241f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63c24', endColorstr='#8c241f',GradientType=0 );
+	border-radius: 5px;
+	/*padding: 5px 5px 5px 20px;*/
+	/*padding: 5px 0px;*/
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 10px;
+    line-height: 25px;
+}
+.item-gym--info--address:before {
+	position: absolute;
+	content: '';
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	margin-top: -10px;
+	background: url(./../images/icon_hand.png)
 }
 .item-gym--info--address .icon-circle{
 	margin-right: 10px;
+}
+.item-gym--info--address .text-black {
+	padding-right: 10px;
 }
 .item-gym--info--soc .icon-circle {
 	margin-right: 5px;

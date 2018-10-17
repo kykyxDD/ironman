@@ -1,0 +1,106 @@
+@font-face {
+    font-family: DinDisplay;
+    src: url(./../fonts/PF_DinDisplay_Pro.ttf);
+}
+@font-face {
+    font-family: 'Bebas_Neue_Cyrillic';
+    src: url(./../fonts/Bebas_Neue_Cyrillic.ttf);
+}
+.main--header {
+	flex:1;
+	max-height: 240px;
+	align-items: center;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none !important;
+	box-shadow: none !important
+}
+
+.main--header .navbar-toggle{
+	background-color: inherit !important;
+	border: none;
+}
+
+.main--header .gym-address {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 48px;
+	line-height: 53px;
+	color: #fff;
+	font-family: 'Bebas_Neue_Cyrillic';
+}
+
+
+@media (max-width: 992px)  {
+
+	.navbar-brand>img {
+		max-width: 210px;
+	}
+	.main--header .header--image img {
+	    max-width: 180px;
+	}
+	.main--header .gym-address {
+		font-size: 35px;
+	}
+	.main--header .gym-address {
+	    
+	    line-height: 40px;
+	}
+}
+
+@media (max-width: 767px){
+
+	.main--header .gym-address {
+	    font-size: 28px;
+	    line-height: 30px
+	}
+	.main--header .navbar-brand {
+		padding-right: 0;
+	}
+	.navbar-collapse {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.navbar-brand>img {
+	    max-width: 190px;
+	}
+	.main--header .header--image img {
+	    max-width: 160px;
+	}
+	
+}
+
+
+@media (max-width: 650px){
+	.main--header .gym-address {
+	    font-size: 25px;
+	    line-height: 25px
+	}
+	.navbar-brand>img {
+	    max-width: 150px;
+	}
+	.main--header .header--image img {
+	    max-width: 130px;
+	}
+}
+
+
+@media (max-width: 576px){
+	
+	.main--header .gym-address {
+		font-size: 21px;
+	}
+	.main--header .header--image img {
+		display: none;
+	}
+	
+}
+
+@media (max-width: 450px){
+	.main--header .navbar {
+		flex-direction: column;
+	}
+	.main--header .navbar-brand {
+		padding-left: 0;
+	}
+}
